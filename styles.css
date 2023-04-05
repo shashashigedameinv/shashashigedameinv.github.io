@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background-color: #ffffff;
+  }
+  
+  header {
+    background-color: #f2f2f2;
+    padding: 10px 0;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+  }
+  
+  nav li {
+    margin: 0 15px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #888282;
+  }
+  
+  section {
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 48px;
+    color: #333;
+  }
+  
+  h2 {
+    font-size: 36px;
+    color: #524a4a;
+    background-color:#f2f2f2;
+    padding: 10px;
+  }
+  /* 在已有CSS代码的基础上添加 */
+
+h2 {
+    margin-bottom: 20px;
+  }
+  
+  .two-columns {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .column {
+    width: 45%;
+  }
+  .photos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+    grid-auto-rows: auto;
+    gap: 10px;
+    padding-left: 20px;
+    padding-top: 20px;
+  }
+  #gallery {
+    position: relative;
+  }
+  
+  .slider {
+    overflow: hidden;
+    width: 40%;
+  }
+  
+  #slider-wrapper {
+    display: flex;
+    transition: transform 0.5s;
+  }
+  .photos img {
+    width: 400px;
+    height: 250px;
+    object-fit: cover;
+  }
+  
+  /* .friends-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+  } */
+  
+  .friend img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .schedule-list {
+    text-align: left;
+    display: inline-block;
+    margin-top: 20px;
+  }
+  
+  .contact p {
+    margin-bottom: 10px;
+  }
+  
+  hr {
+    width: 50%;
+    border: 1px solid #999;
+    margin: 10px auto;
+  }
+  
+  .love-quote {
+    font-style: italic;
+    font-size: 16px;
+  }
+  
+  .wedding-info {
+    font-size: 18px;
+  }
+  .cover-photo {
+    width: 55%;
+    height: auto;
+    aspect-ratio: 3/2;
+    display: block;
+    margin: 25px auto;
+  }
+  #our-story {
+    color: #a79e7a;
+  }
+  
+  #our-story p {
+    font-size: 14px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 1.5;
+    text-indent: 2em;
+  }
+  #gallery {
+    position: relative;
+  }
+  
+  .slider {
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  #slider-wrapper {
+    display: flex;
+    transition: transform 0.5s;
+  }
+  
+  /* .photos img {
+    width: 100%;
+    height: auto;
+  } */
+  
+  button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 24px;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+  }
+  
+  #prev {
+    left: 10px;
+  }
+  #next {
+    right: 10px;
+  }
+  footer {
+    background-color: #f5f5f5;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+    font-size: 14px;
+    color: #777;
+    border-top: 1px solid #e0e0e0;
+  }
+  .whitespace {
+    height: 300px;
+    background-color: #fff;
+  }
+  .slider-wrapper {
+    overflow: hidden;
+    position: relative;
+  }
+  .friends-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    transition: transform 0.5s ease;
+    margin-left: 100px;
+    margin-top: 40px;
+  }
+  .friend {
+    /* padding: 0 60px; */
+    border-right: 1px solid #ccc;
+    font-size: 14px;
+    color: #a79e7a;
+  }
+  
+  /* 移除最后一个 friend 的竖线 */
+  .friend:last-child {
+    border-right: none;
+  }
+  #parents-blessings {
+    text-align: center;
+  }
+  
+  .blessings-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .blessing {
+    flex: 1;
+    padding: 0 10px;
+    box-sizing: border-box;
+    max-width: 25%;
+    font-size: 14px;
+    color: #a79e7a;
+  }
+  
+  .blessing img {
+    max-width: 40%;
+    height: auto;
+    border-radius: 10%;
+    margin-bottom: 20px;
+  }
+  
+
+
+  
+  
+  
